@@ -1,0 +1,19 @@
+.animatMDU {
+    position: relative;
+}
+.animatMDU div img{
+    border-radius: 50%;
+    position: relative;
+    animation: giraMUD 10s infinite linear;
+}
+@keyframes giraMUD {
+    0% {
+        rotate: 359deg;
+    }
+}
+.animatMDU  img{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+   left: 0;
+}
